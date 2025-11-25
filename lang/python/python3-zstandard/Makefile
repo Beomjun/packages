@@ -1,11 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-zstandard
-PKG_VERSION:=0.23.0
+PKG_VERSION:=0.24.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=zstandard
-PKG_HASH:=b2d8c62d08e7255f68f7a740bae85b3c9b8e5466baa9cbf7f57f1cde0ac6bc09
+PKG_HASH:=fe3198b81c00032326342d973e526803f183f97aa9e9a98e3f897ebafe21178f
+
+HOST_BUILD_DEPENDS:=python-cffi/host
 
 include ../pypi.mk
 include $(INCLUDE_DIR)/package.mk
