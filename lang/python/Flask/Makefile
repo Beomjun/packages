@@ -17,6 +17,8 @@ PKG_LICENSE:=BSD-3-Clause
 PKG_LICENSE_FILES:=LICENSE.rst
 PKG_CPE_ID:=cpe:/a:palletsprojects:flask
 
+PYTHON3_PKG_WHEEL_NAME:=flask
+
 include ../pypi.mk
 include $(INCLUDE_DIR)/package.mk
 include ../python3-package.mk

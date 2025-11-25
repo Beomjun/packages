@@ -20,6 +20,8 @@ PKG_LICENSE_FILES:=LICENSE
 PKG_MAINTAINER:=Jeffery To <jeffery.to@gmail.com>
 PKG_CPE_ID:=cpe:/a:pyopenssl_project:pyopenssl
 
+PYTHON3_PKG_WHEEL_NAME:=pyopenssl
+
 include ../pypi.mk
 include $(INCLUDE_DIR)/package.mk
 include ../python3-package.mk

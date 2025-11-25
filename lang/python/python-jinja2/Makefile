@@ -18,6 +18,8 @@ PKG_LICENSE_FILES:=LICENSE.rst
 PKG_CPE_ID:=cpe:/a:pocoo:jinja2
 HOST_BUILD_DEPENDS:= python-markupsafe/host
 
+PYTHON3_PKG_WHEEL_NAME:=jinja2
+
 include ../pypi.mk
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/host-build.mk

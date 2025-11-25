@@ -8,6 +8,8 @@ PYPI_NAME:=Brotli
 PKG_HASH:=4d1b810aa0ed773f81dceda2cc7b403d01057458730e309856356d4ef4188438
 PKG_SOURCE:=$(PYPI_NAME)-$(PKG_VERSION).zip
 
+PYTHON3_PKG_WHEEL_NAME:=brotli
+
 include ../pypi.mk
 include $(INCLUDE_DIR)/package.mk
 include ../python3-package.mk
